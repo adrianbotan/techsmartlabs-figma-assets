@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" stroke="currentColor" stroke-width="1.5">
+
+  <path d="M20 240 H120 V80 H240 V160 H360 V240 H440"/>
+  <path d="M240 160 V300 H120 V360 H300 V440"/>
+  <path d="M360 240 V340 H440 V400 H300"/>
+  <path d="M20 120 H80 V200 H160"/>
+  <path d="M160 200 H200 V120 H280 V40 H440"/>
+  <circle cx="120" cy="80"  r="4" fill="currentColor" stroke="none"/>
+  <circle cx="240" cy="160" r="4" fill="currentColor" stroke="none"/>
+  <circle cx="360" cy="240" r="4" fill="currentColor" stroke="none"/>
+  <circle cx="120" cy="360" r="4" fill="currentColor" stroke="none"/>
+  <circle cx="300" cy="300" r="4" fill="currentColor" stroke="none"/>
+  <circle cx="80"  cy="200" r="4" fill="currentColor" stroke="none"/>
+  <circle cx="280" cy="40"  r="4" fill="currentColor" stroke="none"/>
+
+</svg>

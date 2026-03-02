@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" fill="none" stroke="currentColor" stroke-width="1">
+
+  
+  <polygon points="40,35 83,68 40,100 -3,68" stroke-width="0.8"/>
+  <line x1="40" y1="35" x2="40" y2="100" stroke-width="0.5" opacity="0.5"/>
+  <line x1="-3" y1="68" x2="83" y2="68" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="140,35 183,68 140,100 97,68" stroke-width="0.8"/>
+  <line x1="140" y1="35" x2="140" y2="100" stroke-width="0.5" opacity="0.5"/>
+  <line x1="97" y1="68" x2="183" y2="68" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="240,35 283,68 240,100 197,68" stroke-width="0.8"/>
+  <line x1="240" y1="35" x2="240" y2="100" stroke-width="0.5" opacity="0.5"/>
+  <line x1="197" y1="68" x2="283" y2="68" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="340,35 383,68 340,100 297,68" stroke-width="0.8"/>
+  <line x1="340" y1="35" x2="340" y2="100" stroke-width="0.5" opacity="0.5"/>
+  <line x1="297" y1="68" x2="383" y2="68" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="90,95 133,128 90,160 47,128" stroke-width="0.8"/>
+  <line x1="90" y1="95" x2="90" y2="160" stroke-width="0.5" opacity="0.5"/>
+  <line x1="47" y1="128" x2="133" y2="128" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="190,95 233,128 190,160 147,128" stroke-width="0.8"/>
+  <line x1="190" y1="95" x2="190" y2="160" stroke-width="0.5" opacity="0.5"/>
+  <line x1="147" y1="128" x2="233" y2="128" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="290,95 333,128 290,160 247,128" stroke-width="0.8"/>
+  <line x1="290" y1="95" x2="290" y2="160" stroke-width="0.5" opacity="0.5"/>
+  <line x1="247" y1="128" x2="333" y2="128" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="390,95 433,128 390,160 347,128" stroke-width="0.8"/>
+  <line x1="390" y1="95" x2="390" y2="160" stroke-width="0.5" opacity="0.5"/>
+  <line x1="347" y1="128" x2="433" y2="128" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="40,155 83,188 40,220 -3,188" stroke-width="0.8"/>
+  <line x1="40" y1="155" x2="40" y2="220" stroke-width="0.5" opacity="0.5"/>
+  <line x1="-3" y1="188" x2="83" y2="188" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="140,155 183,188 140,220 97,188" stroke-width="0.8"/>
+  <line x1="140" y1="155" x2="140" y2="220" stroke-width="0.5" opacity="0.5"/>
+  <line x1="97" y1="188" x2="183" y2="188" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="240,155 283,188 240,220 197,188" stroke-width="0.8"/>
+  <line x1="240" y1="155" x2="240" y2="220" stroke-width="0.5" opacity="0.5"/>
+  <line x1="197" y1="188" x2="283" y2="188" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="340,155 383,188 340,220 297,188" stroke-width="0.8"/>
+  <line x1="340" y1="155" x2="340" y2="220" stroke-width="0.5" opacity="0.5"/>
+  <line x1="297" y1="188" x2="383" y2="188" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="90,215 133,248 90,280 47,248" stroke-width="0.8"/>
+  <line x1="90" y1="215" x2="90" y2="280" stroke-width="0.5" opacity="0.5"/>
+  <line x1="47" y1="248" x2="133" y2="248" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="190,215 233,248 190,280 147,248" stroke-width="0.8"/>
+  <line x1="190" y1="215" x2="190" y2="280" stroke-width="0.5" opacity="0.5"/>
+  <line x1="147" y1="248" x2="233" y2="248" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="290,215 333,248 290,280 247,248" stroke-width="0.8"/>
+  <line x1="290" y1="215" x2="290" y2="280" stroke-width="0.5" opacity="0.5"/>
+  <line x1="247" y1="248" x2="333" y2="248" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="390,215 433,248 390,280 347,248" stroke-width="0.8"/>
+  <line x1="390" y1="215" x2="390" y2="280" stroke-width="0.5" opacity="0.5"/>
+  <line x1="347" y1="248" x2="433" y2="248" stroke-width="0.5" opacity="0.5"/>
+
+</svg>

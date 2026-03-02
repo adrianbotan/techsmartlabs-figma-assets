@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Concentric circle decoration — appears in Database and AI pages, isometric network motif -->
+<!-- Multiple circles, largest 480px. Stroke only, no fill. -->
+<!-- Usage: position:absolute; opacity:0.15–0.25; color = accent or muted -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" stroke="currentColor">
+  <circle cx="240" cy="240" r="220" stroke-width="0.5"/>
+  <circle cx="240" cy="240" r="180" stroke-width="0.5"/>
+  <circle cx="240" cy="240" r="140" stroke-width="0.5"/>
+  <circle cx="240" cy="240" r="100" stroke-width="0.5"/>
+  <circle cx="240" cy="240" r="66"  stroke-width="0.5"/>
+  <circle cx="240" cy="240" r="38"  stroke-width="0.5"/>
+  <circle cx="240" cy="240" r="16"  stroke-width="0.5"/>
+  <!-- Cross hairs through center -->
+  <line x1="0"   y1="240" x2="480" y2="240" stroke-width="0.5"/>
+  <line x1="240" y1="0"   x2="240" y2="480" stroke-width="0.5"/>
+  <!-- Diagonal cross hairs -->
+  <line x1="0"   y1="0"   x2="480" y2="480" stroke-width="0.5"/>
+  <line x1="480" y1="0"   x2="0"   y2="480" stroke-width="0.5"/>
+</svg>
