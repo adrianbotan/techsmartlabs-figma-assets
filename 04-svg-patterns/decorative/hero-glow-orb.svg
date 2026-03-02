@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Gradient glow orb — side radial glow used in hero sections -->
+<!-- Usage: position:absolute; left:-10%; top:0; bottom:0; width:40%; pointer-events:none -->
+<!-- On dark (#151515) backgrounds — creates blue edge glow -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="none">
+  <defs>
+    <radialGradient id="left-orb" cx="0%" cy="50%" r="100%" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#518DD2" stop-opacity="0.20"/>
+      <stop offset="40%"  stop-color="#518DD2" stop-opacity="0.08"/>
+      <stop offset="70%"  stop-color="#518DD2" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#518DD2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#left-orb)"/>
+</svg>

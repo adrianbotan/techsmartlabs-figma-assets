@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SOURCE: retool.com/agents hero — intersecting horizontal + vertical lines, uneven spacing (perspective/Fibonacci) -->
+<!-- Usage: position:absolute; color = stroke color (use page's accent or currentColor) -->
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" preserveAspectRatio="none" viewBox="0 0 480 480">
+  <!-- Vertical lines (non-uniform spacing = perspective feel) -->
+  <path d="M479.5 0v479.5H0
+           m471.191 0V0
+           m-17.537 479.5V0
+           m-32.308 479.5V0
+           m-51.692 479.5V0
+           m-66.463 479.5V0
+           M218.27 479.5V0
+           M117.654 479.5V0
+           M0 471.338h479.5
+           M0 461.542h479.5
+           M0 438.685h479.5
+           M0 402.765h479.5
+           M0 353.785h479.5
+           M0 293.378h479.5
+           M0 221.542h479.5
+           M0 131.744h479.5"/>
+</svg>

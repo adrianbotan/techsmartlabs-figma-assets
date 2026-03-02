@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SOURCE: retool.com/database — vertical grid lines spanning full page height -->
+<!-- This is the foundational vertical rhythm grid used on the Database page -->
+<!-- viewBox: 0 0 680 2755 (spans the full page height) -->
+<!-- Usage: position:absolute; top:0; right:0; opacity:0.08–0.15; color = currentColor -->
+<!-- Columns at x: 29, 60, 91, 122, 153, 184, 215, 246, 277, 308, 339, 370, 401, 432, 463, 494, 525, 556, 587, 618, 649 (31px grid) -->
+<svg viewBox="0 0 680 2755" width="680" height="2755" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path stroke="currentColor" stroke-miterlimit="10" stroke-width="1"
+    d="M680 .307v31m0 0H0m680 0v31
+       m-31-62V2755M618 .307V2755M587 .307V2755M556 .307V2755
+       M525 .307V2755M494 .307V2755M463 .307V2755M432 .307V2755
+       M401 .307V2755M370 .307V2755M339 .307V2755M308 .307V2755
+       M277 .307V2755M246 .307V2755M215 .307V2755M184 .307V2755
+       M153 .307V2755M122 .307V2755M91 .307V2755M60 .307V2755
+       M29 .307V2755M0 .307V2755"/>
+</svg>

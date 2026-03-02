@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" >
+<line x1="0" y1="32" x2="480" y2="32" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="0" y1="38" x2="480" y2="38" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="0" y1="102" x2="480" y2="102" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="0" y1="108" x2="480" y2="108" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="0" y1="172" x2="480" y2="172" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="0" y1="178" x2="480" y2="178" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="0" y1="242" x2="480" y2="242" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="0" y1="248" x2="480" y2="248" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="0" y1="312" x2="480" y2="312" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="0" y1="318" x2="480" y2="318" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="0" y1="382" x2="480" y2="382" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="0" y1="388" x2="480" y2="388" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="0" y1="452" x2="480" y2="452" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="0" y1="458" x2="480" y2="458" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="45" y1="0" x2="45" y2="480" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="51" y1="0" x2="51" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="141" y1="0" x2="141" y2="480" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="147" y1="0" x2="147" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="237" y1="0" x2="237" y2="480" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="243" y1="0" x2="243" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="333" y1="0" x2="333" y2="480" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="339" y1="0" x2="339" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="429" y1="0" x2="429" y2="480" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="435" y1="0" x2="435" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="525" y1="0" x2="525" y2="480" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<line x1="531" y1="0" x2="531" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+</svg>

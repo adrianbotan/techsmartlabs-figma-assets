@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900">
+  <defs>
+    <pattern id="col26" x="0" y="0" width="55.38" height="900" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="900" stroke="currentColor" stroke-width="0.5" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="900" fill="url(#col26)"/>
+  <!-- Outer margin lines -->
+  <line x1="40" y1="0" x2="40" y2="900" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+  <line x1="1400" y1="0" x2="1400" y2="900" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+</svg>

@@ -1,0 +1,129 @@
+{
+    "meta": {
+        "source": "Extracted from retool.com master.css — transitions, animations, @keyframes, easing curves",
+        "version": "1.0",
+        "date": "2026-03-01"
+    },
+    "easings": {
+        "description": "Retool defines 4 primary easing curves as CSS custom properties — all on :root",
+        "ease-in": {
+            "cssVar": "--dvt-ease-in",
+            "value": "cubic-bezier(0.12, 0, 0.72, 0)",
+            "usage": "Elements leaving the screen — exits, collapses"
+        },
+        "ease-in-out": {
+            "cssVar": "--dvt-ease-in-out",
+            "value": "cubic-bezier(0.72, 0, 0.12, 1)",
+            "usage": "Transitions between states — tab switches, category changes"
+        },
+        "ease-in-out-back": {
+            "cssVar": "--dvt-ease-in-out-back",
+            "value": "cubic-bezier(0.72, -0.4, 0.36, 1.4)",
+            "usage": "Playful spring-like entries — tooltips, toasts, micro-animations"
+        },
+        "ease-out": {
+            "cssVar": "--dvt-ease-out",
+            "value": "cubic-bezier(0.12, 1, 0.72, 1)",
+            "usage": "Elements entering the screen — hero animations, content reveal"
+        },
+        "tailwind-default": {
+            "className": "ease-linear",
+            "value": "cubic-bezier(0, 0, 1, 1)"
+        },
+        "soft-aliases": {
+            "ease-soft-ease-in-out": "cubic-bezier(0.72, 0, 0.36, 1)",
+            "ease-soft-ease-out": "cubic-bezier(0.24, 0.01, 0.36, 1)"
+        }
+    },
+    "durations": {
+        "description": "Extracted from .duration-* Tailwind utilities in master.css",
+        "0": "0ms    — instant, no animation",
+        "100": "100ms  — very fast, button feedback",
+        "160": "160ms  — fast micro-interaction",
+        "200": "200ms  — standard transition (most common)",
+        "300": "300ms  — medium — color/opacity fades",
+        "400": "400ms  — slow  — layout changes",
+        "600": "600ms  — very slow — full modal open",
+        "800": "800ms  — entrance animations",
+        "3000": "3000ms — looping/continuous animations"
+    },
+    "delays": {
+        "0": "0ms",
+        "75": "75ms",
+        "100": "100ms",
+        "150": "150ms",
+        "200": "200ms",
+        "300": "300ms",
+        "500": "500ms",
+        "700": "700ms",
+        "1000": "1000ms"
+    },
+    "transitionProperties": {
+        "description": "Custom transition-property shorthand classes extracted from master.css",
+        "transition": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transition-all": "all",
+        "transition-background": "background-color",
+        "transition-colors": "color, background-color, border-color, text-decoration-color, fill, stroke",
+        "transition-opacity": "opacity",
+        "transition-transform": "transform",
+        "transition-transform-opacity": "transform, opacity",
+        "transition-transform-opacity-color": "transform, opacity, color, background-color, border-color, text-decoration-color, fill, stroke",
+        "transition-text": "color, text-decoration-color, text-underline-offset, text-decoration-thickness",
+        "transition-dimensions": "width, height",
+        "transition-none": "none"
+    },
+    "keyframes": {
+        "pulse": {
+            "definition": "@keyframes pulse { 50% { opacity: 0.5; } }",
+            "usage": ".animate-pulse — 2s cubic-bezier(0.4, 0, 0.6, 1) infinite — loading skeleton states"
+        },
+        "spin": {
+            "definition": "@keyframes spin { to { transform: rotate(360deg); } }",
+            "usage": ".animate-spin — 1s linear infinite — loading spinners"
+        },
+        "red-pulse": {
+            "definition": "@keyframes red-pulse { 0% { background-color: var(--raw-semantic-critical-10); } to { background-color: var(--raw-semantic-critical-8); } }",
+            "usage": ".red-pulse — 2s linear infinite alternate — critical alert indicator"
+        }
+    },
+    "commonPatterns": {
+        "button-hover": {
+            "css": "transition: background-color 200ms var(--dvt-ease-in-out), transform 150ms var(--dvt-ease-in-out)",
+            "usage": "Standard primary button hover — background color shift + very slight scale"
+        },
+        "fade-in": {
+            "css": "transition: opacity 300ms var(--dvt-ease-out)",
+            "usage": "Overlay, tooltip, modal backdrop fade"
+        },
+        "slide-up-enter": {
+            "css": "transition: transform 400ms var(--dvt-ease-out), opacity 400ms var(--dvt-ease-out); from: { transform: translateY(16px); opacity: 0; }",
+            "usage": "Content sections entering on scroll, modal sheets sliding in"
+        },
+        "tab-switch": {
+            "css": "transition: all 200ms var(--dvt-ease-in-out)",
+            "usage": "Tab indicator sliding between active tabs"
+        },
+        "nav-backdrop": {
+            "css": "backdrop-filter: blur(12px); transition: background-color 200ms var(--dvt-ease-in-out)",
+            "usage": "Navigation bar becoming opaque on scroll"
+        },
+        "scale-spring": {
+            "css": "transition: transform 300ms var(--dvt-ease-in-out-back)",
+            "usage": "Tooltip, popover, dropdown spring-open effect"
+        },
+        "grid-row-expand": {
+            "css": "transition: grid-template-rows 200ms var(--dvt-ease-in-out), opacity 200ms ease",
+            "usage": "Accordion / expandable row content reveal"
+        }
+    },
+    "willChange": {
+        "transform": "Applied to animated elements before animation starts for GPU layer promotion",
+        "auto": "Reset after animation completes"
+    },
+    "backdropBlur": {
+        "sm": "blur(4px)",
+        "md": "blur(12px)  — nav scrolled state",
+        "lg": "blur(16px)  — modal overlay, heavy blur",
+        "3px": "blur(0.1875rem) — subtle card shimmer effect"
+    }
+}

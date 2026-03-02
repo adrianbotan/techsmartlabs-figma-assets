@@ -1,0 +1,116 @@
+{
+    "meta": {
+        "source": "Extracted from retool.com master.css — font-face declarations and utility classes",
+        "version": "1.0",
+        "date": "2026-03-01"
+    },
+    "fontFaces": {
+        "saans": {
+            "family": "saansFont",
+            "cssVar": "--font-saans",
+            "src": "../media/SaansVF-s.p.84a2bbd5.woff2",
+            "format": "woff2",
+            "display": "swap",
+            "weightRange": "100 900",
+            "style": "normal",
+            "fallback": "saansFont Fallback",
+            "fallbackSrc": "local(Arial)",
+            "ascentOverride": "91.69%",
+            "descentOverride": "22.67%",
+            "usage": "Primary font — body text, nav labels, headings, all standard UI"
+        },
+        "pxGroteskRegular": {
+            "family": "pxGroteskFont",
+            "cssVar": "--font-px-grotesk",
+            "src": "../media/Px_Grotesk_Regular-s.p.9f07335c.woff2",
+            "format": "woff2",
+            "display": "swap",
+            "weight": "400",
+            "style": "normal",
+            "usage": "Secondary/accent font — stylistic numbers, accent text, marketing headlines"
+        },
+        "pxGroteskBold": {
+            "family": "pxGroteskFont",
+            "cssVar": "--font-px-grotesk",
+            "src": "../media/PxGrotesk_Bold-s.p.b67bfcd7.woff2",
+            "format": "woff2",
+            "display": "swap",
+            "weight": "700",
+            "style": "normal",
+            "usage": "Secondary/accent font bold weight"
+        }
+    },
+    "fontStacks": {
+        "primary": "var(--font-saans), sans-serif",
+        "accent": "var(--font-px-grotesk), sans-serif",
+        "system": "ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace"
+    },
+    "fontWeights": {
+        "light": 300,
+        "regular": 400,
+        "medium": 570,
+        "semibold": 600,
+        "bold": 700,
+        "note": "Weight 570 is the exact value used in master.css for 'font-medium' (not a typo)"
+    },
+    "typeScale": {
+        "note": "Values extracted from Tailwind utility classes in master.css: .text-xs, .text-sm, .text-base, .text-lg, .text-xl, .text-2xl, .text-3xl, .text-4xl",
+        "xs": {
+            "fontSize": "0.75rem",
+            "lineHeight": "1rem",
+            "usage": "Fine print, captions, tags"
+        },
+        "sm": {
+            "fontSize": "0.875rem",
+            "lineHeight": "1.25rem",
+            "usage": "Small labels, nav sub-items, helper text"
+        },
+        "base": {
+            "fontSize": "1rem",
+            "lineHeight": "1.5rem",
+            "usage": "Standard body text, form inputs"
+        },
+        "lg": {
+            "fontSize": "1.125rem",
+            "lineHeight": "1.75rem",
+            "usage": "Intro paragraphs, feature descriptions"
+        },
+        "xl": {
+            "fontSize": "1.25rem",
+            "lineHeight": "1.75rem",
+            "usage": "Sub-section titles, card headlines"
+        },
+        "2xl": {
+            "fontSize": "1.5rem",
+            "lineHeight": "2rem",
+            "usage": "Section sub-headers, feature titles"
+        },
+        "3xl": {
+            "fontSize": "1.875rem",
+            "lineHeight": "2.25rem",
+            "usage": "Page section headers"
+        },
+        "4xl": {
+            "fontSize": "2.25rem",
+            "lineHeight": "2.5rem",
+            "usage": "Large section headlines"
+        }
+    },
+    "letterSpacing": {
+        "default": "0",
+        "wide": "0.025em",
+        "wider": "0.05em",
+        "widest": "0.1em",
+        "usage": "wider/widest used on uppercase tags, overline labels; default on all body text"
+    },
+    "textTransform": {
+        "uppercase": "Used on overline labels, badge text, navigation eyebrow labels",
+        "note": "Retool uses uppercase sparingly — primarily for small tag/badge labels and section eyebrows"
+    },
+    "renderingFlags": {
+        "antialiased": "-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale",
+        "textRendering": "text-rendering: geometricPrecision",
+        "note": "Applied globally to .dark, .light, and .devtopia via .devtopia *, .dark *, .light * selectors"
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <pattern id="minor" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="currentColor" stroke-width="0.3" opacity="0.5"/>
+    </pattern>
+    <pattern id="major" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <rect width="120" height="120" fill="url(#minor)"/>
+      <path d="M 120 0 L 0 0 0 120" fill="none" stroke="currentColor" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="480" fill="url(#major)"/>
+</svg>

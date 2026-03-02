@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" stroke="currentColor" stroke-width="1">
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="80" height="480" stroke-width="1"/>
+  <rect x="12" y="16" width="56" height="32" rx="6" fill="currentColor" opacity="0.08" stroke="none"/><rect x="12" y="64" width="56" height="32" rx="6" fill="currentColor" opacity="0.08" stroke="none"/><rect x="12" y="112" width="56" height="32" rx="6" fill="currentColor" opacity="0.08" stroke="none"/><rect x="12" y="160" width="56" height="32" rx="6" fill="currentColor" opacity="0.08" stroke="none"/><rect x="12" y="208" width="56" height="32" rx="6" fill="currentColor" opacity="0.08" stroke="none"/><rect x="12" y="256" width="56" height="32" rx="6" fill="currentColor" opacity="0.08" stroke="none"/>
+  <!-- Header -->
+  <rect x="80" y="0" width="400" height="48" stroke-width="1"/>
+  <!-- Stats row -->
+  <rect x="96" y="64" width="80" height="64" rx="8" stroke-width="0.8"/><rect x="188" y="64" width="80" height="64" rx="8" stroke-width="0.8"/><rect x="280" y="64" width="80" height="64" rx="8" stroke-width="0.8"/><rect x="372" y="64" width="80" height="64" rx="8" stroke-width="0.8"/>
+  <!-- Main chart -->
+  <rect x="96" y="144" width="244" height="200" rx="8" stroke-width="0.8"/>
+  <!-- Right panel -->
+  <rect x="356" y="144" width="108" height="200" rx="8" stroke-width="0.8"/>
+  <!-- Table -->
+  <rect x="96" y="360" width="368" height="100" rx="8" stroke-width="0.8"/>
+  <line x1="96" y1="390" x2="464" y2="390" stroke-width="0.4"/><line x1="96" y1="414" x2="464" y2="414" stroke-width="0.4"/><line x1="96" y1="438" x2="464" y2="438" stroke-width="0.4"/>
+
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0A0E18"/>
+  <!-- vertical grid left/right flanks -->
+  <line x1="0" y1="0" x2="0" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="40" y1="0" x2="40" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="80" y1="0" x2="80" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="120" y1="0" x2="120" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="160" y1="0" x2="160" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="200" y1="0" x2="200" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/>
+  <line x1="800" y1="0" x2="800" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="760" y1="0" x2="760" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="720" y1="0" x2="720" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="680" y1="0" x2="680" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="640" y1="0" x2="640" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/><line x1="600" y1="0" x2="600" y2="450" stroke="#518DD2" stroke-width="0.4" opacity="0.1"/>
+  <!-- Concentric hexagons -->
+  <polygon points="538.6,305.0 400.0,385.0 261.4,305.0 261.4,145.0 400.0,65.0 538.6,145.0" stroke="#518DD2" stroke-width="1.5" opacity="0.9"/><polygon points="512.6,290.0 400.0,355.0 287.4,290.0 287.4,160.0 400.0,95.0 512.6,160.0" stroke="#518DD2" stroke-width="1.5" opacity="0.9"/><polygon points="486.6,275.0 400.0,325.0 313.4,275.0 313.4,175.0 400.0,125.0 486.6,175.0" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/><polygon points="462.4,261.0 400.0,297.0 337.6,261.0 337.6,189.0 400.0,153.0 462.4,189.0" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/><polygon points="441.6,249.0 400.0,273.0 358.4,249.0 358.4,201.0 400.0,177.0 441.6,201.0" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/><polygon points="424.2,239.0 400.0,253.0 375.8,239.0 375.8,211.0 400.0,197.0 424.2,211.0" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+  <!-- Wire lines from center to vertices -->
+  <line x1="400" y1="225" x2="590.5" y2="335.0" stroke="#518DD2" stroke-width="0.6" opacity="0.3"/><line x1="400" y1="225" x2="400.0" y2="445.0" stroke="#518DD2" stroke-width="0.6" opacity="0.3"/><line x1="400" y1="225" x2="209.5" y2="335.0" stroke="#518DD2" stroke-width="0.6" opacity="0.3"/><line x1="400" y1="225" x2="209.5" y2="115.0" stroke="#518DD2" stroke-width="0.6" opacity="0.3"/><line x1="400" y1="225" x2="400.0" y2="5.0" stroke="#518DD2" stroke-width="0.6" opacity="0.3"/><line x1="400" y1="225" x2="590.5" y2="115.0" stroke="#518DD2" stroke-width="0.6" opacity="0.3"/>
+  <!-- Outer hex -->
+  <polygon points="590.5,335.0 400.0,445.0 209.5,335.0 209.5,115.0 400.0,5.0 590.5,115.0" stroke="#518DD2" stroke-width="1" opacity="0.4"/>
+  <!-- Corner lead-line marks (architectural) -->
+  <line x1="590.5" y1="335.0" x2="625.2" y2="355.0" stroke="#9CBFE7" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="590.5" cy="335.0" r="3" fill="#518DD2" opacity="0.7"/><line x1="400.0" y1="445.0" x2="400.0" y2="485.0" stroke="#9CBFE7" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="400.0" cy="445.0" r="3" fill="#518DD2" opacity="0.7"/><line x1="209.5" y1="335.0" x2="174.8" y2="355.0" stroke="#9CBFE7" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="209.5" cy="335.0" r="3" fill="#518DD2" opacity="0.7"/><line x1="209.5" y1="115.0" x2="174.8" y2="95.0" stroke="#9CBFE7" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="209.5" cy="115.0" r="3" fill="#518DD2" opacity="0.7"/><line x1="400.0" y1="5.0" x2="400.0" y2="-35.0" stroke="#9CBFE7" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="400.0" cy="5.0" r="3" fill="#518DD2" opacity="0.7"/><line x1="590.5" y1="115.0" x2="625.2" y2="95.0" stroke="#9CBFE7" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="590.5" cy="115.0" r="3" fill="#518DD2" opacity="0.7"/>
+  <!-- Center glow -->
+  <radialGradient id="hg1" cx="400" cy="225" r="180" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#518DD2" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#518DD2" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="400" cy="225" r="180" fill="url(#hg1)"/>
+</svg>

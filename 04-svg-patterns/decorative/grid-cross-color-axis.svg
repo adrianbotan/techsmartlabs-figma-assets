@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" >
+<line x1="0" y1="30" x2="480" y2="30" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="90" x2="480" y2="90" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="150" x2="480" y2="150" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="210" x2="480" y2="210" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="270" x2="480" y2="270" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="330" x2="480" y2="330" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="390" x2="480" y2="390" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="450" x2="480" y2="450" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="30" y1="0" x2="30" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="90" y1="0" x2="90" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="150" y1="0" x2="150" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="210" y1="0" x2="210" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="270" y1="0" x2="270" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="330" y1="0" x2="330" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="390" y1="0" x2="390" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="450" y1="0" x2="450" y2="480" stroke="#E9EBDF" stroke-width="0.3" opacity="0.12"/>
+<line x1="0" y1="240" x2="480" y2="240" stroke="#518DD2" stroke-width="1.5" opacity="0.7"/>
+<line x1="240" y1="0" x2="240" y2="480" stroke="#E8765E" stroke-width="1.5" opacity="0.7"/>
+</svg>

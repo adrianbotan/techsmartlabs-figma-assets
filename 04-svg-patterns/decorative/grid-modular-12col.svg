@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900">
+  <defs>
+    <pattern id="col12" x="0" y="0" width="120" height="900" patternUnits="userSpaceOnUse">
+      <rect x="12" y="0" width="96" height="900" fill="currentColor" opacity="0.04"/>
+      <line x1="0" y1="0" x2="0" y2="900" stroke="currentColor" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    <pattern id="rows" x="0" y="0" width="1440" height="80" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="80" x2="1440" y2="80" stroke="currentColor" stroke-width="0.3" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="900" fill="url(#col12)"/>
+  <rect width="1440" height="900" fill="url(#rows)"/>
+</svg>

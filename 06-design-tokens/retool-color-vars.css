@@ -1,0 +1,206 @@
+/**
+ * Retool Design System — Color Variables
+ * Source: retool.com master.css — verified raw token extraction
+ * Usage: Import this file as the single source of truth for all colors.
+ */
+
+:root {
+    /* ============================================================
+   * RAW PALETTE — Brand color scales (not context-specific)
+   * ============================================================ */
+
+    /* Neutral Scale */
+    --color-neutral-black-0: #000000;
+    --color-neutral-black-1: #0E0E0E;
+    --color-neutral-black-2: #151515;
+    /* PRIMARY DARK */
+    --color-neutral-black-3: #242424;
+    --color-neutral-black-4: #2E2F2D;
+    --color-neutral-black-5: #3F403D;
+    --color-neutral-white-0: #FFFFFF;
+    --color-neutral-white-1: #F7F8F4;
+    /* PRIMARY LIGHT BG */
+    --color-neutral-white-2: #E9EBDF;
+    /* SECONDARY LIGHT */
+    --color-neutral-white-3: #CBCCC4;
+    --color-neutral-white-4: #B6B8AF;
+    --color-neutral-white-5: #94958E;
+
+    /* Blue Scale */
+    --color-blue-900: #1B2E44;
+    --color-blue-700: #2D4C71;
+    --color-blue-500: #518DD2;
+    /* PRIMARY BLUE ACCENT */
+    --color-blue-300: #9CBFE7;
+    --color-blue-100: #C0D6EC;
+
+    /* Green Scale */
+    --color-green-900: #0E352C;
+    --color-green-700: #185849;
+    --color-green-500: #4D9987;
+    /* PRIMARY GREEN ACCENT */
+    --color-green-300: #9DBDB6;
+    --color-green-100: #C4D7D3;
+
+    /* Gray (warm) Scale */
+    --color-gray-900: #282522;
+    --color-gray-700: #433E38;
+    --color-gray-500: #8B867F;
+    --color-gray-300: #C8BFB5;
+    --color-gray-100: #DED9D3;
+
+    /* Orange Scale */
+    --color-orange-900: #491F16;
+    --color-orange-700: #793325;
+    --color-orange-500: #E8765E;
+    --color-orange-300: #ECAFA2;
+    --color-orange-100: #F4CFС7;
+
+    /* Yellow Scale */
+    --color-yellow-900: #4A2B11;
+    --color-yellow-700: #7C481C;
+    --color-yellow-500: #ECA438;
+    --color-yellow-300: #D4BA95;
+    --color-yellow-100: #E5D6BF;
+
+    /* Purple Scale */
+    --color-purple-900: #3A2B53;
+    --color-purple-700: #53397C;
+    --color-purple-500: #9874D2;
+    --color-purple-300: #BB9FE7;
+    --color-purple-100: #D6C5F1;
+
+    /* Pink Scale */
+    --color-pink-900: #3D163D;
+    --color-pink-700: #652466;
+    --color-pink-500: #CC64CE;
+    --color-pink-300: #E09EE2;
+    --color-pink-100: #ECC5EE;
+
+    /* Semantic */
+    --color-error-dark: #651722;
+    --color-error: #F15264;
+    --color-error-muted: #E79295;
+    --color-success-dark: #1A3C32;
+    --color-success: #11997A;
+    --color-success-muted: #52BB9D;
+    --color-warning-dark: #4B371D;
+    --color-warning: #F1A42E;
+    --color-warning-muted: #E0A24E;
+
+    /* ============================================================
+   * ALPHA SCALES — Transparency stacks for overlays/shadows
+   * ============================================================ */
+    --color-black2-a0: #15151500;
+    --color-black2-a6: #15151510;
+    --color-black2-a12: #1515151F;
+    --color-black2-a24: #1515153D;
+    --color-black2-a40: #15151566;
+    --color-black2-a60: #15151599;
+
+    --color-white2-a0: #E9EBDF00;
+    --color-white2-a6: #E9EBDF10;
+    --color-white2-a12: #E9EBDF1F;
+    --color-white2-a20: #E9EBDF33;
+    --color-white2-a40: #E9EBDF66;
+    --color-white2-a60: #E9EBDF99;
+    --color-white2-a80: #E9EBDFCC;
+
+    --color-white1-a0: #F7F8F400;
+    --color-white1-a12: #F7F8F41F;
+    --color-white1-a20: #F7F8F433;
+    --color-white1-a40: #F7F8F466;
+    --color-white1-a60: #F7F8F499;
+    --color-white1-a80: #F7F8F4CC;
+}
+
+/* ============================================================
+ * LIGHT MODE — Semantic tokens
+ * Applied via .light class (matches Retool's convention)
+ * ============================================================ */
+.light,
+:root {
+    --bg-primary: #F7F8F4;
+    /* Main page background */
+    --bg-secondary: #E9EBDF;
+    /* Cards, alternate sections */
+    --bg-muted: #CBCCC4;
+    /* Dividers, disabled states */
+
+    --text-primary: #151515;
+    /* Headings, body text */
+    --text-secondary: #242424;
+    /* Sub-headings, descriptions */
+    --text-muted: #3F403D;
+    /* Captions, placeholder */
+    --text-disabled: #94958E;
+    /* Disabled labels */
+
+    --border-default: #CBCCC4;
+    /* Card, input borders */
+    --border-subtle: #E9EBDF;
+    /* Hairline dividers */
+    --border-focus: #1515151F;
+    /* Focused input ring */
+
+    --btn-fill: #151515;
+    /* Primary button background */
+    --btn-fill-text: #E9EBDF;
+    /* Primary button label */
+    --btn-fill-hover: #2E2F2D;
+    /* Primary button hover bg */
+
+    --accent-blue: #518DD2;
+    --accent-blue-dark: #1B2E44;
+    --accent-green: #4D9987;
+    --accent-green-dark: #0E352C;
+
+    --nav-bg: transparent;
+    --nav-bg-scrolled: #000000CC;
+    --nav-text: #151515;
+    --nav-text-hover: #242424;
+    --nav-indicator: #518DD2;
+
+    --footer-bg: #151515;
+    --footer-text: #CBCCC4;
+    --footer-logo: #E9EBDF;
+}
+
+/* ============================================================
+ * DARK MODE — Semantic tokens
+ * Applied via .dark class (matches Retool's convention)
+ * ============================================================ */
+.dark {
+    --bg-primary: #151515;
+    --bg-secondary: #242424;
+    --bg-muted: #0E0E0E;
+
+    --text-primary: #E9EBDF;
+    --text-secondary: #CBCCC4;
+    --text-muted: #B6B8AF;
+    --text-disabled: #E9EBDF66;
+
+    --border-default: #E9EBDF1F;
+    --border-subtle: #E9EBDF10;
+    --border-focus: #E9EBDF33;
+
+    --btn-fill: #E9EBDF;
+    --btn-fill-text: #151515;
+    --btn-fill-hover: #FFFFFF;
+
+    --accent-blue: #518DD2;
+    --accent-blue-dark: #1B2E44;
+    --accent-green: #4D9987;
+    --accent-green-dark: #0E352C;
+
+    --nav-bg: transparent;
+    --nav-bg-scrolled: #000000CC;
+    --nav-text: #E9EBDF;
+    --nav-text-hover: #F7F8F4;
+    --nav-indicator: #518DD2;
+
+    --footer-bg: #151515;
+    --footer-text: #CBCCC4;
+    --footer-logo: #E9EBDF;
+    --footer-border: #E9EBDF99;
+}

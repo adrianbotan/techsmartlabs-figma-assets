@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SOURCE: retool.com/ai — Quadtree recursive grid (nested subdividing rectangles) -->
+<!-- Visual: Large squares progressively subdivided into smaller squares towards top-left  -->
+<!-- Usage: position:absolute; stroke="currentColor" (use purple accent on AI page) -->
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" preserveAspectRatio="none" viewBox="0 0 480 480">
+  <g clip-path="url(#clip-quadtree)">
+    <!-- Outermost rectangles (quadrants) -->
+    <path d="M240 479.5h239.5V240H240z"/>
+    <path d="M.5 479.5H240V240H.5z"/>
+    <path d="M240 240h239.5V.5H240z"/>
+    <!-- Level 2 subdivision (top-left quadrant only) -->
+    <path d="M120.25 240H240V120.25H120.25z"/>
+    <path d="M.5 240h119.75V120.25H.5z"/>
+    <path d="M120.25 120.25H240V.5H120.25z"/>
+    <!-- Level 3 subdivision -->
+    <path d="M60.375 120.25h59.875V60.375H60.375z"/>
+    <path d="M.5 120.25h59.875V60.375H.5z"/>
+    <path d="M30.438 60.375h29.938V30.438H30.438z"/>
+    <path d="M.5 60.375h29.938V30.438H.5z"/>
+    <!-- Level 4 subdivision -->
+    <path d="M15.469 30.438h14.969V15.469H15.469z"/>
+    <path d="M.5 30.438h14.969V15.469H.5z"/>
+  </g>
+  <defs>
+    <clipPath id="clip-quadtree">
+      <rect width="480" height="480"/>
+    </clipPath>
+  </defs>
+</svg>

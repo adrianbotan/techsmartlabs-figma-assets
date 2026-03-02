@@ -1,0 +1,210 @@
+/**
+ * Retool Design System — Typography Variables
+ * Source: retool.com master.css — font-face declarations and utility classes
+ * Usage: Import after retool-color-vars.css — no dependencies on other files.
+ */
+
+/* ============================================================
+ * FONT FACE DECLARATIONS
+ * ============================================================ */
+
+/**
+ * Primary font: saansFont (variable weight 100–900)
+ * Fallback: saansFont Fallback → Arial, then sans-serif
+ */
+@font-face {
+    font-family: saansFont;
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('/assets/media/SaansVF.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: saansFont Fallback;
+    src: local('Arial');
+    ascent-override: 91.69%;
+    descent-override: 22.67%;
+    line-gap-override: 0%;
+}
+
+/**
+ * Secondary font: pxGroteskFont (Regular 400 + Bold 700)
+ * Used for accent text and marketing headlines
+ */
+@font-face {
+    font-family: pxGroteskFont;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('/assets/media/PxGrotesk_Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: pxGroteskFont;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('/assets/media/PxGrotesk_Bold.woff2') format('woff2');
+}
+
+/* ============================================================
+ * CSS CUSTOM PROPERTIES — Typography
+ * ============================================================ */
+:root {
+    /* Font families */
+    --font-saans: saansFont, 'saansFont Fallback', sans-serif;
+    --font-px-grotesk: pxGroteskFont, sans-serif;
+    --font-system: ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+    /* Font weights — NOTE: 570 is exact value used in master.css for "medium" weight */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 570;
+    /* Retool's custom intermediate weight */
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* Type scale — mirrors Tailwind classes in master.css */
+    --text-xs: 0.75rem;
+    /* 12px — captions, fine print */
+    --text-sm: 0.875rem;
+    /* 14px — labels, nav, small body */
+    --text-base: 1rem;
+    /* 16px — standard body */
+    --text-lg: 1.125rem;
+    /* 18px — intro paragraphs */
+    --text-xl: 1.25rem;
+    /* 20px — sub-section titles */
+    --text-2xl: 1.5rem;
+    /* 24px — section sub-headers */
+    --text-3xl: 1.875rem;
+    /* 30px — section headers */
+    --text-4xl: 2.25rem;
+    /* 36px — large headlines */
+    --text-5xl: 3rem;
+    /* 48px — hero section H1 */
+    --text-6xl: 3.75rem;
+    /* 60px — extra-large display */
+
+    /* Line heights */
+    --lh-none: 1;
+    --lh-tight: 1.1;
+    --lh-snug: 1.25;
+    --lh-normal: 1.5;
+    --lh-relaxed: 1.65;
+    --lh-loose: 2;
+
+    /* Letter spacing */
+    --ls-tight: -0.03em;
+    /* Used on large headlines */
+    --ls-snug: -0.02em;
+    /* Card titles, medium headlines */
+    --ls-normal: 0;
+    /* Body text */
+    --ls-wide: 0.025em;
+    /* Large labels */
+    --ls-wider: 0.05em;
+    /* Section eyebrow labels */
+    --ls-widest: 0.1em;
+    /* ALL CAPS small badge text */
+}
+
+/* ============================================================
+ * BASE TEXT RENDERING
+ * Applied globally — matches .devtopia *, .dark *, .light * selectors
+ * ============================================================ */
+*,
+*::before,
+*::after {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+ * UTILITY CLASSES — Semantic typography
+ * ============================================================ */
+
+/* Body text */
+.text-body {
+    font-family: var(--font-saans);
+    font-size: var(--text-base);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-normal);
+}
+
+/* Small label (nav, captions, tags) */
+.text-label {
+    font-family: var(--font-saans);
+    font-size: var(--text-sm);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-snug);
+}
+
+/* Fine print (helper text, timestamps, metadata) */
+.text-caption {
+    font-family: var(--font-saans);
+    font-size: var(--text-xs);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-normal);
+}
+
+/* Eyebrow label (uppercase section marker) */
+.text-eyebrow {
+    font-family: var(--font-saans);
+    font-size: var(--text-xs);
+    font-weight: var(--fw-semibold);
+    text-transform: uppercase;
+    letter-spacing: var(--ls-widest);
+    line-height: var(--lh-snug);
+}
+
+/* Card/subheading title */
+.text-subtitle {
+    font-family: var(--font-saans);
+    font-size: var(--text-lg);
+    font-weight: var(--fw-semibold);
+    line-height: var(--lh-snug);
+    letter-spacing: var(--ls-snug);
+}
+
+/* Section heading */
+.text-heading-md {
+    font-family: var(--font-saans);
+    font-size: var(--text-3xl);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-tight);
+    letter-spacing: var(--ls-snug);
+}
+
+/* Page-level heading */
+.text-heading-lg {
+    font-family: var(--font-saans);
+    font-size: var(--text-4xl);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-tight);
+    letter-spacing: var(--ls-tight);
+}
+
+/* Hero display H1 */
+.text-display {
+    font-family: var(--font-saans);
+    font-size: clamp(var(--text-4xl), 5vw, var(--text-6xl));
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-none);
+    letter-spacing: var(--ls-tight);
+}
+
+/* Accent / stylistic (pxGrotesk) */
+.text-accent {
+    font-family: var(--font-px-grotesk);
+    font-weight: var(--fw-regular);
+}
+
+/* Monospace (code, technical values) */
+.text-mono {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    /* Slightly smaller — mono is optically larger */
+}

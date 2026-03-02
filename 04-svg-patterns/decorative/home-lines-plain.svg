@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SOURCE: retool.com homepage hero — plain horizontal lines, non-scaling-stroke -->
+<!-- Usage: position:absolute; w-full h-full; color = stroke color -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 159" preserveAspectRatio="none" stroke="currentColor" stroke-width="1" vector-effect="non-scaling-stroke" fill="none">
+  <line y1="4"   x2="1360" y2="4"/>
+  <line y1="21"  x2="1360" y2="21"/>
+  <line y1="41"  x2="1360" y2="41"/>
+  <line y1="68"  x2="1360" y2="68"/>
+  <line y1="106" x2="1360" y2="106"/>
+  <line y1="158" x2="1360" y2="158"/>
+</svg>

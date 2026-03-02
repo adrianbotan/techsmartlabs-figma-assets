@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "name": "TechSmartLabs Design Tokens",
+    "source": "Extracted from retool.com (homepage, /database, /agents, /for/data-teams, /for/engineering-teams, /for/financial-services, /utilities, /newsroom)",
+    "version": "1.0",
+    "date": "2026-03-01"
+  },
+
+  "colors": {
+    "surfaces": {
+      "black":       { "value": "#0E0E0E", "usage": "Primary page background" },
+      "charcoal":    { "value": "#151515", "usage": "Alternating section background" },
+      "dark":        { "value": "#242424", "usage": "Elevated surfaces, input backgrounds" },
+      "warm-dark":   { "value": "#282522", "usage": "Warm-toned dark sections" },
+      "card":        { "value": "#1A1A1A", "usage": "Card backgrounds" },
+      "card-hover":  { "value": "#1F1F1F", "usage": "Card hover state" },
+      "cream":       { "value": "#FAF9F5", "usage": "Light mode primary background" },
+      "light":       { "value": "#F7F8F4", "usage": "Light mode alternate background" },
+      "warm-cream":  { "value": "#F5F3ED", "usage": "Light mode warm sections" },
+      "white":       { "value": "#FFFFFF", "usage": "Light mode card backgrounds" }
+    },
+    "text": {
+      "dark-on-dark": {
+        "primary":   { "value": "#E9EBDF", "opacity": 1.0 },
+        "secondary": { "value": "#E9EBDF", "opacity": 0.6 },
+        "tertiary":  { "value": "#E9EBDF", "opacity": 0.4 }
+      },
+      "dark-on-light": {
+        "primary":   { "value": "#141414", "opacity": 1.0 },
+        "secondary": { "value": "#151515", "opacity": 0.6 },
+        "tertiary":  { "value": "#151515", "opacity": 0.4 }
+      }
+    },
+    "accents": {
+      "teal": {
+        "vivid":  { "value": "#4D9987", "usage": "Primary brand accent, CTAs, links" },
+        "deep":   { "value": "#185849", "usage": "Hover states, emphasis" },
+        "forest": { "value": "#0E352C", "usage": "Dark tinted backgrounds" },
+        "sage":   { "value": "#C4D7D3", "usage": "Light mode teal backgrounds" },
+        "muted":  { "value": "#9DBDB6", "usage": "Secondary teal text, labels" }
+      },
+      "blue": {
+        "accent": { "value": "#518DD2", "usage": "Engineering pages, secondary accent" },
+        "deep":   { "value": "#2A5A8A", "usage": "Blue hover/emphasis" },
+        "light":  { "value": "#A3C4E0", "usage": "Blue text on dark backgrounds" }
+      },
+      "gold": {
+        "warm":   { "value": "#C8A96E", "usage": "Data-teams pages, pending states" },
+        "amber":  { "value": "#D4A855", "usage": "Sparkle/highlight elements" },
+        "muted":  { "value": "#B8A080", "usage": "Warm secondary accents" }
+      },
+      "red": {
+        "accent": { "value": "#C72844", "usage": "Newsroom, error states, alerts" },
+        "deep":   { "value": "#651722", "usage": "Dark red tinted backgrounds" },
+        "muted":  { "value": "#8B4050", "usage": "Soft red accents" }
+      },
+      "warm": {
+        "brown":  { "value": "#433E38", "usage": "Newsroom cards, warm sections" },
+        "tan":    { "value": "#C8BFB5", "usage": "Warm neutral text, borders" },
+        "stone":  { "value": "#8B867F", "usage": "Muted warm text" }
+      }
+    },
+    "borders": {
+      "subtle":      { "value": "rgba(255, 255, 255, 0.08)", "usage": "Default card/section borders on dark" },
+      "medium":      { "value": "rgba(255, 255, 255, 0.12)", "usage": "Hover borders, active states" },
+      "strong":      { "value": "rgba(255, 255, 255, 0.20)", "usage": "Focused/selected borders" },
+      "dark-subtle": { "value": "rgba(0, 0, 0, 0.08)", "usage": "Light mode card borders" },
+      "dark-medium": { "value": "rgba(0, 0, 0, 0.12)", "usage": "Light mode hover borders" }
+    }
+  },
+
+  "typography": {
+    "families": {
+      "display": { "stack": "'DM Sans', system-ui, sans-serif", "fallback": "'PX Grotesk'" },
+      "body":    { "stack": "'Inter', -apple-system, system-ui, sans-serif", "fallback": "'Saans'" },
+      "mono":    { "stack": "'JetBrains Mono', 'Fira Code', monospace" }
+    },
+    "weights": {
+      "light":     300,
+      "regular":   400,
+      "medium":    500,
+      "semibold":  600
+    },
+    "scale": {
+      "xs":    { "size": "12px", "lineHeight": 1.5,  "usage": "Labels, tags, metadata" },
+      "sm":    { "size": "14px", "lineHeight": 1.5,  "usage": "Captions, descriptions" },
+      "base":  { "size": "16px", "lineHeight": 1.6,  "usage": "Body text" },
+      "lg":    { "size": "18px", "lineHeight": 1.6,  "usage": "Large body, intros" },
+      "xl":    { "size": "24px", "lineHeight": 1.3,  "usage": "Card titles" },
+      "2xl":   { "size": "32px", "lineHeight": 1.2,  "usage": "Sub headings" },
+      "3xl":   { "size": "36px", "lineHeight": 1.15, "usage": "Section headings" },
+      "4xl":   { "size": "48px", "lineHeight": 1.1,  "usage": "Display large" },
+      "5xl":   { "size": "72px", "lineHeight": 1.05, "usage": "Display hero" }
+    },
+    "letterSpacing": {
+      "display":  "-0.04em",
+      "section":  "-0.02em",
+      "card":     "-0.01em",
+      "body":     "0em",
+      "wide":     "0.025em",
+      "caps":     "0.08em",
+      "widest":   "0.1em"
+    }
+  },
+
+  "spacing": {
+    "scale": [0, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128],
+    "sectionPadding": { "y": "96px", "x": "24px" },
+    "cardPadding": "24px",
+    "maxWidth": "1280px"
+  },
+
+  "radii": {
+    "xs":   "4px",
+    "sm":   "6px",
+    "md":   "8px",
+    "lg":   "14px",
+    "xl":   "20px",
+    "2xl":  "24px",
+    "full": "9999px"
+  },
+
+  "shadows": {
+    "card":     "0px 1px 2px rgba(0,0,0,0.12), 0px 0px 0px 0.5px rgba(0,0,0,1)",
+    "elevated": "0px 8px 24px rgba(0,0,0,0.25)",
+    "float":    "0px 40px 80px rgba(0,0,0,0.15)",
+    "glow-teal":"0 0 60px rgba(77,153,135,0.15)",
+    "glow-blue":"0 0 60px rgba(81,141,210,0.15)",
+    "glow-gold":"0 0 60px rgba(200,169,110,0.15)",
+    "inner":    "inset 0 1px 2px rgba(0,0,0,0.3)",
+    "light-card":"0 1px 2px rgba(0,0,0,0.05)"
+  },
+
+  "patterns": {
+    "grid-fine":       { "size": "24px", "stroke": "rgba(255,255,255,0.03)", "file": "svgs/patterns/grid-fine-24.svg" },
+    "grid-medium":     { "size": "48px", "stroke": "rgba(255,255,255,0.05)", "file": "svgs/patterns/grid-medium-48.svg" },
+    "grid-combined":   { "sizes": ["24px", "120px"], "file": "svgs/patterns/grid-combined.svg" },
+    "dot-grid":        { "size": "20px", "dotRadius": "1px", "file": "svgs/patterns/dot-grid.svg" },
+    "diagonal-lines":  { "angle": "45deg", "gap": "14px", "file": "svgs/patterns/diagonal-lines.svg" },
+    "concentric":      { "ringGap": "18px", "file": "svgs/patterns/concentric-circles.svg" },
+    "radial-glow-teal":{ "color": "#4D9987", "opacity": 0.12, "file": "svgs/patterns/radial-glow-teal.svg" },
+    "radial-glow-blue":{ "color": "#518DD2", "opacity": 0.12, "file": "svgs/patterns/radial-glow-blue.svg" }
+  },
+
+  "components": {
+    "button": {
+      "primary":   { "bg": "#4D9987", "text": "#FFFFFF", "radius": "8px", "padding": "10px 20px", "font": "14px/500" },
+      "secondary": { "bg": "#1A1A1A", "border": "rgba(255,255,255,0.12)", "text": "#E9EBDF", "radius": "8px" },
+      "ghost":     { "bg": "transparent", "text": "rgba(233,235,223,0.6)", "hoverBg": "rgba(255,255,255,0.05)" },
+      "small":     { "padding": "6px 12px", "fontSize": "12px", "radius": "6px" },
+      "pill":      { "radius": "9999px", "padding": "8px 16px" }
+    },
+    "tag": {
+      "status": { "radius": "9999px", "dotSize": "6px", "fontSize": "12px", "fontWeight": 500 },
+      "category": { "radius": "9999px", "bg": "#242424", "fontSize": "12px" },
+      "version":  { "radius": "8px", "bg": "#242424", "fontFamily": "mono", "fontSize": "12px" }
+    },
+    "card": {
+      "bg": "#1A1A1A",
+      "border": "rgba(255,255,255,0.08)",
+      "radius": "14px",
+      "padding": "24px",
+      "hoverBorder": "rgba(255,255,255,0.12)",
+      "hoverShadow": "0px 8px 24px rgba(0,0,0,0.25)"
+    },
+    "icon-container": {
+      "size": "40px",
+      "radius": "14px",
+      "bgOpacity": 0.1,
+      "borderOpacity": 0.2,
+      "iconSize": "20px"
+    },
+    "nav": {
+      "height": "56px",
+      "bg": "rgba(14,14,14,0.9)",
+      "blur": "12px",
+      "borderBottom": "rgba(255,255,255,0.08)"
+    },
+    "footer": {
+      "columns": 4,
+      "categoryFont": "12px/600/uppercase/0.08em",
+      "linkFont": "14px/400"
+    }
+  },
+
+  "illustrations": {
+    "style": "Warm, handcrafted with geometric precision",
+    "perspectives": ["isometric 3D", "flat vector", "environmental vignette"],
+    "fills": "Translucent 20-60% opacity with brighter matching borders",
+    "backgrounds": "Gradients from teal-forest/warm-brown to surface-dark/black",
+    "gridOverlay": "3-5% white opacity on illustration backgrounds",
+    "primaryColors": ["#4D9987", "#518DD2"],
+    "warmColors": ["#433E38", "#C8A96E", "#C8BFB5"],
+    "neverUse": "Fully opaque accent fills in illustrations"
+  }
+}

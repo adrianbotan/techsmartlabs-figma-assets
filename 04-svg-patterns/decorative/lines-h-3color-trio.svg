@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" >
+<line x1="0" y1="24" x2="480" y2="24" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="30" x2="480" y2="30" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="36" x2="480" y2="36" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="84" x2="480" y2="84" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="90" x2="480" y2="90" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="96" x2="480" y2="96" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="144" x2="480" y2="144" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="150" x2="480" y2="150" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="156" x2="480" y2="156" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="204" x2="480" y2="204" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="210" x2="480" y2="210" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="216" x2="480" y2="216" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="264" x2="480" y2="264" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="270" x2="480" y2="270" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="276" x2="480" y2="276" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="324" x2="480" y2="324" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="330" x2="480" y2="330" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="336" x2="480" y2="336" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="384" x2="480" y2="384" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="390" x2="480" y2="390" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="396" x2="480" y2="396" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="444" x2="480" y2="444" stroke="#518DD2" stroke-width="0.8" opacity="0.5"/>
+<line x1="0" y1="450" x2="480" y2="450" stroke="#4D9987" stroke-width="0.5" opacity="0.35"/>
+<line x1="0" y1="456" x2="480" y2="456" stroke="#9874D2" stroke-width="0.8" opacity="0.5"/>
+</svg>

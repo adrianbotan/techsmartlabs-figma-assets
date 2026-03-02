@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "source": "Extracted from retool.com master.css — verified against :root CSS custom properties",
+    "version": "1.0",
+    "date": "2026-03-01"
+  },
+  "rawPalette": {
+    "neutral": {
+      "black-0":   { "hex": "#000000", "var": "--raw-neutral-dark-black-0" },
+      "black-1":   { "hex": "#0E0E0E", "var": "--raw-neutral-dark-black-1" },
+      "black-2":   { "hex": "#151515", "var": "--raw-neutral-dark-black-2-primary", "note": "PRIMARY DARK — most used dark color" },
+      "black-3":   { "hex": "#242424", "var": "--raw-neutral-dark-black-3" },
+      "black-4":   { "hex": "#2E2F2D", "var": "--raw-neutral-dark-black-4" },
+      "black-5":   { "hex": "#3F403D", "var": "--raw-neutral-dark-black-5" },
+      "white-0":   { "hex": "#FFFFFF", "var": "--raw-neutral-light-white-0" },
+      "white-1":   { "hex": "#F7F8F4", "var": "--raw-neutral-light-white-1", "note": "PRIMARY LIGHT BG — main page background" },
+      "white-2":   { "hex": "#E9EBDF", "var": "--raw-neutral-light-white-2-primary", "note": "SECONDARY LIGHT — card backgrounds" },
+      "white-3":   { "hex": "#CBCCC4", "var": "--raw-neutral-light-white-3" },
+      "white-4":   { "hex": "#B6B8AF", "var": "--raw-neutral-light-white-4" },
+      "white-5":   { "hex": "#94958E", "var": "--raw-neutral-light-white-5" }
+    },
+    "blue": {
+      "darkest":   { "hex": "#1B2E44", "var": "--raw-blue-darkest",   "usage": "Dark hero sections, deep CTA buttons" },
+      "darkened":  { "hex": "#2D4C71", "var": "--raw-blue-darkened",  "usage": "Icon fills, hover states on dark" },
+      "primary":   { "hex": "#518DD2", "var": "--raw-blue-primary",   "usage": "Active nav highlights, interactive accents" },
+      "lightened": { "hex": "#9CBFE7", "var": "--raw-blue-lightened", "usage": "Muted blue fills, tags on dark" },
+      "lightest":  { "hex": "#C0D6EC", "var": "--raw-blue-lightest",  "usage": "Pale blue backgrounds on light mode" }
+    },
+    "green": {
+      "darkest":   { "hex": "#0E352C", "var": "--raw-green-darkest",   "usage": "Dark section backgrounds, success deep" },
+      "darkened":  { "hex": "#185849", "var": "--raw-green-darkened",  "usage": "Success states, hover fills" },
+      "primary":   { "hex": "#4D9987", "var": "--raw-green-primary",   "usage": "Success badges, active indicators" },
+      "lightened": { "hex": "#9DBDB6", "var": "--raw-green-lightened", "usage": "Muted green tags, subtle highlights" },
+      "lightest":  { "hex": "#C4D7D3", "var": "--raw-green-lightest",  "usage": "Pale green backgrounds in light mode" }
+    },
+    "gray": {
+      "darkest":   { "hex": "#282522", "var": "--raw-gray-darkest" },
+      "darkened":  { "hex": "#433E38", "var": "--raw-gray-darkened" },
+      "primary":   { "hex": "#8B867F", "var": "--raw-gray-primary",   "usage": "Muted icons, placeholder text" },
+      "lightened": { "hex": "#C8BFB5", "var": "--raw-gray-lightened" },
+      "lightest":  { "hex": "#DED9D3", "var": "--raw-gray-lightest" }
+    },
+    "orange": {
+      "darkest":   { "hex": "#491F16", "var": "--raw-orange-darkest" },
+      "darkened":  { "hex": "#793325", "var": "--raw-orange-darkened" },
+      "primary":   { "hex": "#E8765E", "var": "--raw-orange-primary",  "usage": "Warning accents, highlighted tags" },
+      "lightened": { "hex": "#ECAFA2", "var": "--raw-orange-lightened" },
+      "lightest":  { "hex": "#F4CFС7", "var": "--raw-orange-lightest" }
+    },
+    "yellow": {
+      "darkest":   { "hex": "#4A2B11", "var": "--raw-yellow-darkest" },
+      "darkened":  { "hex": "#7C481C", "var": "--raw-yellow-darkened" },
+      "primary":   { "hex": "#ECA438", "var": "--raw-yellow-primary",  "usage": "Warning states, highlighted data" },
+      "lightened": { "hex": "#D4BA95", "var": "--raw-yellow-lightened" },
+      "lightest":  { "hex": "#E5D6BF", "var": "--raw-yellow-lightest" }
+    },
+    "purple": {
+      "darkest":   { "hex": "#3A2B53", "var": "--raw-purple-darkest" },
+      "darkened":  { "hex": "#53397C", "var": "--raw-purple-darkened" },
+      "primary":   { "hex": "#9874D2", "var": "--raw-purple-primary" },
+      "lightened": { "hex": "#BB9FE7", "var": "--raw-purple-lightened" },
+      "lightest":  { "hex": "#D6C5F1", "var": "--raw-purple-lightest" }
+    },
+    "pink": {
+      "darkest":   { "hex": "#3D163D", "var": "--raw-pink-darkest" },
+      "darkened":  { "hex": "#652466", "var": "--raw-pink-darkened" },
+      "primary":   { "hex": "#CC64CE", "var": "--raw-pink-primary" },
+      "lightened": { "hex": "#E09EE2", "var": "--raw-pink-lightened" },
+      "lightest":  { "hex": "#ECC5EE", "var": "--raw-pink-lightest" }
+    },
+    "semantic": {
+      "critical-dark":    { "hex": "#651722", "var": "--raw-semantic-critical-12" },
+      "critical-primary": { "hex": "#F15264", "var": "--raw-semantic-critical-10" },
+      "critical-muted":   { "hex": "#E79295", "var": "--raw-semantic-critical-8" },
+      "success-dark":     { "hex": "#1A3C32", "var": "--raw-semantic-success-12" },
+      "success-primary":  { "hex": "#11997A", "var": "--raw-semantic-success-10" },
+      "success-muted":    { "hex": "#52BB9D", "var": "--raw-semantic-success-8" },
+      "warning-dark":     { "hex": "#4B371D", "var": "--raw-semantic-warning-12" },
+      "warning-primary":  { "hex": "#F1A42E", "var": "--raw-semantic-warning-10" },
+      "warning-muted":    { "hex": "#E0A24E", "var": "--raw-semantic-warning-8" }
+    }
+  },
+  "lightMode": {
+    "description": "Applied via .light class on the root element",
+    "background": {
+      "primary":    { "hex": "#F7F8F4", "cssVar": "--surface-background-focused", "usage": "Main page background" },
+      "secondary":  { "hex": "#E9EBDF", "cssVar": "--surface-background-base",    "usage": "Card backgrounds, alternate sections" },
+      "muted":      { "hex": "#CBCCC4", "cssVar": "--surface-background-muted",   "usage": "Dividers, disabled states, subtle borders" }
+    },
+    "text": {
+      "primary":    { "hex": "#151515", "cssVar": "--surface-text-primary", "usage": "Main body text, headings" },
+      "muted":      { "hex": "#242424", "cssVar": "--surface-text-muted",   "usage": "Secondary descriptions, sub-labels" }
+    },
+    "nav": {
+      "default-text":   { "hex": "#151515",   "cssVar": "--nav-items-default-text" },
+      "hover-text":     { "hex": "#242424",   "cssVar": "--nav-items-hover-text" },
+      "inactive-text":  { "hex": "#15151566", "cssVar": "--nav-items-inactive-text" },
+      "active-text":    { "hex": "#CBCCC4",   "cssVar": "--nav-items-active-text" },
+      "selected-mark":  { "hex": "#518DD2",   "cssVar": "--nav-items-default-selected", "note": "Blue underline indicator" }
+    },
+    "button": {
+      "primary-bg":       { "hex": "#151515", "cssVar": "--btn-primary-default-background" },
+      "primary-text":     { "hex": "#E9EBDF", "cssVar": "--btn-primary-default-text" },
+      "primary-hover-bg": { "hex": "#2E2F2D", "cssVar": "--btn-primary-hover-background" },
+      "tertiary-bg":      { "hex": "#CBCCC4", "cssVar": "--btn-tertiary-default-background" },
+      "tertiary-text":    { "hex": "#151515", "cssVar": "--btn-tertiary-default-text" }
+    },
+    "input": {
+      "stroke":       { "hex": "#1515151F", "cssVar": "--input-default-stroke" },
+      "background":   { "hex": "#F7F8F499", "cssVar": "--input-default-background" },
+      "label-text":   { "hex": "#151515",   "cssVar": "--input-default-label-text" },
+      "placeholder":  { "hex": "#15151599", "cssVar": "--input-default-placeholder-text" },
+      "error-stroke": { "hex": "#C72844",   "cssVar": "--input-default-error-stroke" }
+    },
+    "surface": {
+      "accent-blue-bg":    { "hex": "#C0D6EC", "cssVar": "--surface-accent-background-blue" },
+      "accent-green-bg":   { "hex": "#C4D7D3", "cssVar": "--surface-accent-background-green" },
+      "accent-blue-base":  { "hex": "#9CBFE7", "cssVar": "--surface-accent-base-blue" },
+      "accent-green-base": { "hex": "#9DBDB6", "cssVar": "--surface-accent-base-green" },
+      "accent-blue-focus": { "hex": "#518DD2", "cssVar": "--surface-accent-focused-blue" },
+      "details-neutral":   { "hex": "#151515", "cssVar": "--surface-details-neutral" }
+    },
+    "footer": {
+      "background": { "hex": "#151515", "cssVar": "--footer-background" },
+      "text":       { "hex": "#CBCCC4", "cssVar": "--footer-text" },
+      "logo":       { "hex": "#E9EBDF", "cssVar": "--footer-logo" }
+    }
+  },
+  "darkMode": {
+    "description": "Applied via .dark class on the root element",
+    "background": {
+      "primary":    { "hex": "#151515", "cssVar": "--surface-background-base",    "usage": "Main dark page background" },
+      "secondary":  { "hex": "#242424", "cssVar": "--surface-background-focused", "usage": "Card surfaces on dark" },
+      "muted":      { "hex": "#0E0E0E", "cssVar": "--surface-background-muted",   "usage": "Deepest dark, hero overlays" }
+    },
+    "text": {
+      "primary":    { "hex": "#E9EBDF", "cssVar": "--surface-text-primary", "usage": "Main text on dark" },
+      "muted":      { "hex": "#CBCCC4", "cssVar": "--surface-text-muted",   "usage": "Secondary text on dark" }
+    },
+    "nav": {
+      "scrolled-bg":     { "hex": "#000000CC", "cssVar": "--nav-scrolled-background" },
+      "default-text":    { "hex": "#E9EBDF",   "cssVar": "--nav-items-default-text" },
+      "hover-text":      { "hex": "#F7F8F4",   "cssVar": "--nav-items-hover-text" },
+      "selected-mark":   { "hex": "#518DD2",   "cssVar": "--nav-items-default-selected" }
+    },
+    "button": {
+      "primary-bg":       { "hex": "#E9EBDF", "cssVar": "--btn-primary-default-background" },
+      "primary-text":     { "hex": "#151515", "cssVar": "--btn-primary-default-text" },
+      "primary-hover-bg": { "hex": "#FFFFFF", "cssVar": "--btn-primary-hover-background" }
+    },
+    "surface": {
+      "accent-blue-bg":    { "hex": "#1B2E44", "cssVar": "--surface-accent-background-blue" },
+      "accent-green-bg":   { "hex": "#0E352C", "cssVar": "--surface-accent-background-green" },
+      "accent-blue-focus": { "hex": "#518DD2", "cssVar": "--surface-accent-focused-blue" }
+    },
+    "footer": {
+      "background": { "hex": "#151515",   "cssVar": "--footer-background" },
+      "text":       { "hex": "#CBCCC4",   "cssVar": "--footer-text" },
+      "border":     { "hex": "#E9EBDF99", "cssVar": "--footer-border" }
+    }
+  },
+  "alphaScales": {
+    "description": "Transparency layers built on primary colors — used for overlays, shadows, hover states",
+    "black-2-on-dark": {
+      "alpha-0":   "#15151500",
+      "alpha-6":   "#15151510",
+      "alpha-12":  "#1515151F",
+      "alpha-24":  "#1515153D",
+      "alpha-40":  "#15151566",
+      "alpha-60":  "#15151599"
+    },
+    "white-2-on-dark": {
+      "alpha-0":   "#E9EBDF00",
+      "alpha-6":   "#E9EBDF10",
+      "alpha-12":  "#E9EBDF1F",
+      "alpha-20":  "#E9EBDF33",
+      "alpha-40":  "#E9EBDF66",
+      "alpha-60":  "#E9EBDF99",
+      "alpha-80":  "#E9EBDFCC"
+    },
+    "white-1-bg": {
+      "alpha-0":   "#F7F8F400",
+      "alpha-6":   "#F7F8F410",
+      "alpha-12":  "#F7F8F41F",
+      "alpha-20":  "#F7F8F433",
+      "alpha-40":  "#F7F8F466",
+      "alpha-60":  "#F7F8F499",
+      "alpha-80":  "#F7F8F4CC"
+    }
+  }
+}

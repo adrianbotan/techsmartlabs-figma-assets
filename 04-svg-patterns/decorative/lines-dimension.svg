@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" >
+<!-- Horizontal dimension -->
+<line x1="80" y1="200" x2="400" y2="200" stroke="currentColor" stroke-width="1"/>
+<line x1="80" y1="185" x2="80" y2="215" stroke="currentColor" stroke-width="1"/>
+<line x1="400" y1="185" x2="400" y2="215" stroke="currentColor" stroke-width="1"/>
+<path d="M90 200 L80 196 L80 204Z" fill="currentColor"/>
+<path d="M390 200 L400 196 L400 204Z" fill="currentColor"/>
+<!-- Vertical dimension -->
+<line x1="100" y1="60" x2="100" y2="380" stroke="currentColor" stroke-width="1"/>
+<line x1="85" y1="60" x2="115" y2="60" stroke="currentColor" stroke-width="1"/>
+<line x1="85" y1="380" x2="115" y2="380" stroke="currentColor" stroke-width="1"/>
+<path d="M100 70 L96 60 L104 60Z" fill="currentColor"/>
+<path d="M100 370 L96 380 L104 380Z" fill="currentColor"/>
+<!-- reference lines -->
+<line x1="0" y1="60" x2="480" y2="60" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="0" y1="380" x2="480" y2="380" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="80" y1="0" x2="80" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+<line x1="400" y1="0" x2="400" y2="480" stroke="currentColor" stroke-width="0.4" opacity="0.2"/>
+</svg>

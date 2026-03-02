@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" stroke="currentColor" >
+<path d="M240 240 L334.1 249.6 L460.6 240.0" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L315.8 282.4 L422.6 315.6" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L308.2 295.2 L376.8 376.8" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L264.8 350.2 L318.3 428.9" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L249.9 329.7 L240.0 423.9" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L218.8 331.3 L150.9 455.1" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L169.2 336.3 L111.5 368.5" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L139.0 272.3 L66.5 311.9" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L125.0 223.5 L27.1 240.0" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L135.1 205.1 L25.6 151.2" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L167.4 172.4 L105.3 105.3" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L181.6 148.2 L163.7 55.7" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L234.7 141.1 L240.0 45.4" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L299.7 141.3 L326.8 30.5" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L295.4 166.8 L386.8 93.2" stroke-width="1" opacity="0.7"/>
+  <path d="M240 240 L325.5 193.2 L426.7 162.7" stroke-width="1" opacity="0.7"/>
+  <circle cx="240" cy="240" r="20" stroke-width="1.5"/>
+</svg>

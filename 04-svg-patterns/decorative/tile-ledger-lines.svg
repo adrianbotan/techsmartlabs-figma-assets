@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" >
+<defs><pattern id="tll" x="0" y="0" width="1" height="20" patternUnits="userSpaceOnUse"><line x1="0" y1="20" x2="1" y2="20" stroke="currentColor" stroke-width="0.5"/></pattern></defs>
+<rect width="480" height="480" fill="url(#tll)"/>
+<defs><pattern id="tlla" x="0" y="0" width="1" height="100" patternUnits="userSpaceOnUse"><line x1="0" y1="100" x2="1" y2="100" stroke="currentColor" stroke-width="1.5"/></pattern></defs>
+<rect width="480" height="480" fill="url(#tlla)"/>
+<rect width="480" height="480" fill="url(#tll)"/>
+<rect width="480" height="480" fill="url(#tlla)" opacity="0.5"/>
+</svg>

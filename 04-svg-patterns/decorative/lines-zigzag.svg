@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <pattern id="zigzag" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+      <polyline points="0,20 20,0 40,20" fill="none" stroke="currentColor" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="480" fill="url(#zigzag)"/>
+</svg>

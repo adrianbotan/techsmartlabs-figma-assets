@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <pattern id="chev" x="0" y="0" width="60" height="30" patternUnits="userSpaceOnUse">
+      <polyline points="0,30 30,0 60,30" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="480" fill="url(#chev)"/>
+</svg>

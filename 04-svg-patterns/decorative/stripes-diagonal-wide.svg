@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <pattern id="diag-wide" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="40" stroke="currentColor" stroke-width="6"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="480" fill="url(#diag-wide)" opacity="0.08"/>
+</svg>

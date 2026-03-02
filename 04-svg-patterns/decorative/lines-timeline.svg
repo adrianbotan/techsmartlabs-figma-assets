@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" >
+<line x1="40" y1="240" x2="440" y2="240" stroke="currentColor" stroke-width="1.5" opacity="0.7"/>
+<line x1="40" y1="216" x2="40" y2="264" stroke="currentColor" stroke-width="1.2" opacity="0.8"/>
+<line x1="90" y1="230" x2="90" y2="250" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+<line x1="140" y1="224" x2="140" y2="256" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+<line x1="190" y1="230" x2="190" y2="250" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+<line x1="240" y1="216" x2="240" y2="264" stroke="currentColor" stroke-width="1.2" opacity="0.8"/>
+<line x1="290" y1="230" x2="290" y2="250" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+<line x1="340" y1="224" x2="340" y2="256" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+<line x1="390" y1="230" x2="390" y2="250" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+<line x1="440" y1="216" x2="440" y2="264" stroke="currentColor" stroke-width="1.2" opacity="0.8"/>
+</svg>

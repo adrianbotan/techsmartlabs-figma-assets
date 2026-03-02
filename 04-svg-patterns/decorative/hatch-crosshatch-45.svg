@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" stroke="currentColor">
+  <defs>
+    <pattern id="xhatch" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="16" y2="16" stroke-width="0.6"/>
+      <line x1="16" y1="0" x2="0" y2="16" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="480" fill="url(#xhatch)"/>
+</svg>

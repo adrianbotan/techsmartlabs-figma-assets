@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none" stroke="currentColor" stroke-width="1">
+
+  <polygon points="0,0 480,0 440,60 40,60"/>
+  <polygon points="40,60 440,60 400,120 80,120"/>
+  <polygon points="80,120 400,120 360,180 120,180"/>
+  <polygon points="120,180 360,180 320,240 160,240"/>
+  <polygon points="160,240 320,240 280,300 200,300"/>
+  <polygon points="200,300 280,300 240,360 240,360"/>
+
+</svg>

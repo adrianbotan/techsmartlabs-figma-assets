@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" stroke="currentColor" stroke-width="1">
+
+  <!-- Inspired by Retool 2024 refreshed logo's dynamic line motif -->
+  <path d="M80 240 L240 80 L400 240 L240 400 Z" stroke-width="2"/>
+  <path d="M160 240 L240 160 L320 240 L240 320 Z" stroke-width="1.5"/>
+  <path d="M200 240 L240 200 L280 240 L240 280 Z" stroke-width="1"/>
+  <path d="M120 180 L240 60 L360 180" stroke-width="1.5"/>
+  <path d="M120 300 L240 420 L360 300" stroke-width="1.5"/>
+
+</svg>

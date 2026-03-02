@@ -1,0 +1,115 @@
+{
+    "meta": {
+        "source": "Extracted from retool.com master.css — padding, margin, gap, width, height, and grid variables",
+        "version": "1.0",
+        "date": "2026-03-01"
+    },
+    "spacingScale": {
+        "note": "Tailwind rem-based scale. 1 unit = 0.25rem = 4px at browser default 16px base",
+        "0": "0px",
+        "0.5": "2px",
+        "1": "4px",
+        "1.5": "6px",
+        "2": "8px",
+        "2.5": "10px",
+        "3": "12px",
+        "3.5": "14px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "7": "28px",
+        "8": "32px",
+        "9": "36px",
+        "10": "40px",
+        "12": "48px",
+        "14": "56px",
+        "15": "60px",
+        "16": "64px",
+        "20": "80px",
+        "24": "96px",
+        "28": "112px",
+        "30": "120px",
+        "32": "128px"
+    },
+    "customSpacing": {
+        "hairline": "0.0625rem (1px equivalent, used for very fine borders)",
+        "half-hairline": "0.03125rem",
+        "6px": "0.375rem",
+        "14px": "0.875rem",
+        "18px": "1.125rem"
+    },
+    "grid": {
+        "description": "Retool uses a custom fluid grid system based on CSS custom properties",
+        "variables": {
+            "--dvt-grid-inner-max": "1440px (maximum inner content width)",
+            "--dvt-grid-items": "26 columns on mobile, 36 columns on desktop (md+)",
+            "--dvt-grid-col": "calc(100vw / var(--dvt-grid-items)) — responsive column unit",
+            "--dvt-grid-outer": "calc((100vw - --dvt-grid-inner) / 2) — outer gutter",
+            "--dvt-grid-inner": "calc(--dvt-grid-col * (--dvt-grid-items - 2)) — inner content width"
+        },
+        "breakpoints": {
+            "sm": "640px",
+            "md": "768px  — grid switches to 36 columns here",
+            "lg": "1024px",
+            "xl": "1280px",
+            "2xl": "1440px — max container width, grid column size locks to dvt-grid-inner-max"
+        },
+        "containerMaxWidth": "1440px",
+        "commonColumnSpans": {
+            "col-span-full": "1 / -1 (full width)",
+            "col-span-inner": "2 / -2 (inner content area, skipping outer gutters)",
+            "col-span-half": "col-span-18 or col-span-17 (roughly half of 36-col grid)",
+            "note": "Retool uses col-span-12, col-span-16, col-span-18, col-span-20, col-span-24 frequently"
+        }
+    },
+    "navHeight": {
+        "mobile": "4rem  (64px)  — --dvt-nav-height on default",
+        "desktop": "5rem (80px)  — --dvt-nav-height at md breakpoint",
+        "cssVar": "--dvt-nav-height"
+    },
+    "borderRadius": {
+        "none": "0px",
+        "sm": "0.125rem  (2px)  — .rounded-sm, .rounded-2",
+        "": "0.25rem   (4px)  — .rounded, .rounded-4",
+        "md": "0.375rem  (6px)  — .rounded-md, .rounded-6",
+        "lg": "0.5rem    (8px)  — .rounded-lg, .rounded-8",
+        "xl": "0.75rem   (12px) — implied by common usage",
+        "2xl": "1rem      (16px)",
+        "3xl": "1.5rem    (24px) — .rounded-3xl",
+        "36": "2.25rem   (36px) — .rounded-36",
+        "56": "3.5rem    (56px) — .rounded-56",
+        "full": "9999px          — .rounded-full (pill shape)",
+        "usage": {
+            "buttons-primary": "rounded-full (9999px) — fully pill-shaped",
+            "cards": "rounded-lg to rounded-3xl (8px–24px)",
+            "inputs": "rounded-md (6px)",
+            "badges-tags": "rounded-full (9999px)",
+            "modals": "rounded-3xl or 14px (from hypertuneToolbarModal class)"
+        }
+    },
+    "shadows": {
+        "sm": "0 1px 0 rgba(158, 158, 158, 0.25)",
+        "md": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1)",
+        "lg": "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1)",
+        "float": "0 4px 13px rgba(0, 0, 0, 0.02)",
+        "modal": "0 0 0 3px #7a839614, 0 15px 45px rgba(0,0,0,0.1)",
+        "usage": "Shadows used very sparingly — cards use border + bg-shift instead of heavy shadow"
+    },
+    "sectionPadding": {
+        "vertical-lg": "5rem  (80px) — .py-20 — typical large section vertical padding",
+        "vertical-md": "4rem  (64px) — .py-16",
+        "vertical-sm": "2.5rem (40px) — .py-10",
+        "horizontal-lg": "var(--dvt-grid-outer) — outer grid gutter (fluid)",
+        "horizontal-md": "1.5rem (24px) — .px-6",
+        "component-pad": "1.5rem (24px) — .p-6 — standard card internal padding",
+        "component-lg": "2rem   (32px) — .p-8 — large component padding"
+    },
+    "zIndex": {
+        "base": 0,
+        "overlay": 60,
+        "subnav": 1000,
+        "nav": 1500,
+        "modal": 2000,
+        "highest": 9999
+    }
+}

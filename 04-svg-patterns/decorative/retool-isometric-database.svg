@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" stroke="currentColor" stroke-width="1">
+
+  <!-- Isometric platform surface -->
+  <path d="M240 80 L380 160 L380 320 L240 400 L100 320 L100 160 Z" stroke-width="1.5"/>
+  <path d="M240 80 L240 400" stroke-width="0.8" opacity="0.5"/>
+  <path d="M100 160 L380 160" stroke-width="0.8" opacity="0.5"/>
+  <path d="M100 240 L380 240" stroke-width="0.6" opacity="0.3"/>
+  <path d="M100 320 L380 320" stroke-width="0.6" opacity="0.3"/>
+  <!-- Inner "database" cylinder motif -->
+  <ellipse cx="240" cy="160" rx="80" ry="30" stroke-width="1"/>
+  <line x1="160" y1="160" x2="160" y2="240" stroke-width="1"/>
+  <line x1="320" y1="160" x2="320" y2="240" stroke-width="1"/>
+  <ellipse cx="240" cy="240" rx="80" ry="30" stroke-width="1"/>
+  <!-- Connecting nodes -->
+  <circle cx="170" cy="340" r="10" stroke-width="1"/>
+  <circle cx="240" cy="360" r="10" stroke-width="1"/>
+  <circle cx="310" cy="340" r="10" stroke-width="1"/>
+  <line x1="170" y1="340" x2="240" y2="360" stroke-width="0.8"/>
+  <line x1="310" y1="340" x2="240" y2="360" stroke-width="0.8"/>
+  <line x1="170" y1="270" x2="170" y2="330" stroke-width="0.8"/>
+  <line x1="310" y1="270" x2="310" y2="330" stroke-width="0.8"/>
+
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#F0F4F1"/>
+  <!-- Large pill shapes arranged in loose grid -->
+  <rect x="60" y="80" width="240" height="100" rx="50" stroke="#4D9987" stroke-width="1.5" fill="#E0EEE9"/>
+  <rect x="340" y="60" width="180" height="80" rx="40" stroke="#4D9987" stroke-width="1" fill="none" opacity="0.6"/>
+  <rect x="560" y="100" width="200" height="90" rx="45" stroke="#4D9987" stroke-width="1.5" fill="#E0EEE9" opacity="0.7"/>
+  <rect x="100" y="220" width="160" height="70" rx="35" stroke="#4D9987" stroke-width="1" fill="none" opacity="0.5"/>
+  <rect x="290" y="200" width="280" height="110" rx="55" stroke="#4D9987" stroke-width="2" fill="#C8E4DC" opacity="0.8"/>
+  <rect x="600" y="230" width="150" height="65" rx="32" stroke="#4D9987" stroke-width="1" fill="none" opacity="0.4"/>
+  <rect x="60" y="330" width="200" height="80" rx="40" stroke="#4D9987" stroke-width="1" fill="#E0EEE9" opacity="0.6"/>
+  <rect x="300" y="340" width="120" height="55" rx="27" stroke="#4D9987" stroke-width="1" fill="none" opacity="0.4"/>
+  <rect x="460" y="320" width="300" height="100" rx="50" stroke="#4D9987" stroke-width="1.5" fill="#E0EEE9" opacity="0.5"/>
+  <!-- subtle bg grid -->
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="57" x2="800" y2="57" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="114" x2="800" y2="114" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="171" x2="800" y2="171" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="228" x2="800" y2="228" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="285" x2="800" y2="285" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="342" x2="800" y2="342" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="399" x2="800" y2="399" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/><line x1="0" y1="456" x2="800" y2="456" stroke="#4D9987" stroke-width="0.4" opacity="0.1"/>
+</svg>
